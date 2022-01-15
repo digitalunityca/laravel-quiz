@@ -11,7 +11,6 @@ class Quiz extends Model
     use HasFactory, SoftDeletes;
     protected $guarded = ['id'];
 
-
     public function getTable()
     {
         return config('laravel-quiz.table_names.quizzes');
